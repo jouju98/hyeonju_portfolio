@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.first-section {
+  width: 1920px;
+}
+.first-section .container {
+  width: 100%;
+  height: 1080px;
+  background-image: url('https://i.postimg.cc/VNgQB1Pt/4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page2-section {
+  width: 1920px;
+}
+.page2-section .container {
+  width: 100%;
+  height: 1080px;
+  background-image: url('page2-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.page2-section .container .page2-text {
+  width: 570px;
+  height: 99px;
+  position: absolute;
+  top: 257px;
+  left: 492px;
+}
+.page2-section .container .page2-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page2-section .container .page2-img {
+  width: 1050px;
+  height: 501px;
+  position: absolute;
+  top: 383px;
+  left: 435px;
+}
+.page2-section .container .page2-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page3-section {
+  width: 1920px;
+  height: 605px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3-section .text-box {
+  width: 682px;
+  height: 302px;
+}
+.page3-section .text-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page4-section {
+  width: 1920px;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2D2D2D;
+}
+.page4-section .container {
+  width: 1440px;
+  height: 589px;
+  background-image: url('page4_bg_line.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.page4-section .container .text-box {
+  width: 100%;
+  height: 94px;
+  margin-bottom: 40px;
+}
+.page4-section .container .text-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page4-section .container .contents {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-section .container .contents .contents-box {
+  width: 1309;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page4-section .container .contents .contents-box .img-box {
+  width: 403;
+  height: 100%;
+}
+.page4-section .container .contents .contents-box .img-box-1 {
+  margin-right: 50px;
+}
+.page4-section .container .contents .contents-box .img-box-2 {
+  margin-right: 50px;
+}
+.page5-section {
+  width: 1920px;
+  height: 142px;
+  background-image: url('page5_fin.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
